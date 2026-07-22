@@ -1,7 +1,7 @@
 // Delivery Tracker — service worker
 // Bump CACHE_VERSION whenever index.html / manifest / icons change,
 // so returning users pick up the new version instead of a stale cache.
-const CACHE_VERSION = 'v6';
+const CACHE_VERSION = 'v7';
 const CACHE_NAME = `delivery-tracker-${CACHE_VERSION}`;
 
 const APP_SHELL = [
